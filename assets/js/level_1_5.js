@@ -13,9 +13,9 @@ let list = [
     "Dezember"
 ];
 
-const monatsName = (name) =>{
-    const month = new Date (name).getMonth();
-    const monthName = list[month] // Weil der Wert aus month eine Zahl ist, kann sie hier als Index für die Liste verwendet werden
+const monatsName = (month) =>{
+    const months = new Date (month).getMonth();
+    const monthName = list[months] // Weil der Wert aus month eine Zahl ist, kann sie hier als Index für die Liste verwendet werden
     return monthName
     }
 
