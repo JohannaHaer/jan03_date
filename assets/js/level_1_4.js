@@ -1,3 +1,7 @@
+let date = new Date(2016, 0, 0)
+console.log(date);
+
+
 let tageImMonat = (monat, jahr) => {
     return new Date(jahr, monat, 0).getDate()
 }
